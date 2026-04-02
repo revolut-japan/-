@@ -1,0 +1,82 @@
+# PayPay Rule Set for Surge
+# 更新日期：2026-04-02
+# 說明：PayPay 日本行動支付服務分流規則
+# 建議策略：日本節點（JP）
+# 使用方式：RULE-SET,https://raw.githubusercontent.com/genghisliuhaha/-/main/PayPay.list,JP
+
+# ==============================
+# PayPay 主網域
+# ==============================
+DOMAIN-SUFFIX,paypay.ne.jp
+DOMAIN-SUFFIX,paypay-corp.co.jp
+
+# ==============================
+# PayPay 功能子網域
+# ==============================
+DOMAIN,www.paypay.ne.jp
+DOMAIN,api.paypay.ne.jp
+DOMAIN,app4.paypay.ne.jp
+DOMAIN,kyc.paypay.ne.jp
+DOMAIN,payment.paypay.ne.jp
+DOMAIN,r.paypay.ne.jp
+DOMAIN,fido.paypay.ne.jp
+DOMAIN,guide.paypay.ne.jp
+DOMAIN,help.paypay.ne.jp
+DOMAIN,merchant.paypay.ne.jp
+DOMAIN,developer.paypay.ne.jp
+DOMAIN,news.paypay.ne.jp
+DOMAIN,corporate.paypay.ne.jp
+DOMAIN,stg.paypay.ne.jp
+
+# ==============================
+# PayPay 企業 / 採購相關
+# ==============================
+DOMAIN,www.paypay-corp.co.jp
+DOMAIN,biz.paypay-corp.co.jp
+
+# ==============================
+# PayPay CDN / 靜態資源
+# ==============================
+DOMAIN,cdn.paypay.ne.jp
+DOMAIN,image.paypay.ne.jp
+DOMAIN,img.paypay.ne.jp
+DOMAIN,static.paypay.ne.jp
+
+# ==============================
+# PayPay 銀行（PayPay Bank）
+# ==============================
+DOMAIN-SUFFIX,paypaybank.co.jp
+DOMAIN,www.paypaybank.co.jp
+DOMAIN,account.paypaybank.co.jp
+DOMAIN,ib.paypaybank.co.jp
+
+# ==============================
+# PayPay 証券（PayPay Securities）
+# ==============================
+DOMAIN-SUFFIX,paypay-sec.co.jp
+DOMAIN,www.paypay-sec.co.jp
+DOMAIN,app.paypay-sec.co.jp
+
+# ==============================
+# PayPay 保險（PayPay Insurance）
+# ==============================
+DOMAIN-SUFFIX,paypay-insurance.co.jp
+
+# ==============================
+# PayPay Card
+# ==============================
+DOMAIN-SUFFIX,paypaycard.co.jp
+DOMAIN,www.paypaycard.co.jp
+DOMAIN,creditcard.paypaycard.co.jp
+
+# ==============================
+# 關聯：Yahoo! JAPAN（PayPay 帳號登入 / OAuth）
+# 僅限 PayPay 認證相關，避免過廣
+# ==============================
+DOMAIN,login.yahoo.co.jp
+DOMAIN,account.edit.yahoo.co.jp
+DOMAIN,id.yahoo.co.jp
+DOMAIN,auth.yahoo.co.jp
+DOMAIN,sauth.yahoo.co.jp
+DOMAIN,s.yimg.jp
+DOMAIN,ybba.yahooapis.jp
